@@ -19,6 +19,12 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: 0.05rem solid #fff;
+  margin-top: 10px;
+}
+
+.signupbtn {
+  text-align: right;
+  margin-top: 10px;
 }
 
 /*
@@ -151,7 +157,7 @@ body {
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 20rem) {
   .masthead,
   .mastfoot,
   .cover-container {
@@ -167,22 +173,15 @@ body {
   color: black;
   text-align: left;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .auth-links a {
   color: black;
 }
 
-.register-text {
-  text-align: right;
-  margin: 20px;
-}
-
-.register-button {
-  text-align: right;
-  margin: 20px;
-}
-
-.signup-margin {
-  margin: 20px;
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
 }
