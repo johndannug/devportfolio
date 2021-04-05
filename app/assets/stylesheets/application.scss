@@ -166,8 +166,23 @@ body {
 .card-block {
   color: black;
   text-align: left;
+  margin-left: 20px;
 }
 
 .auth-links a {
   color: black;
+}
+
+.register-text {
+  text-align: right;
+  margin: 20px;
+}
+
+.register-button {
+  text-align: right;
+  margin: 20px;
+}
+
+.signup-margin {
+  margin: 20px;
 }
