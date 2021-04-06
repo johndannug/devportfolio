@@ -3,6 +3,13 @@
 /*
  * Globals
  */
+body a {
+  text-decoration: none !important;
+}
+
+body a:hover {
+  text-decoration: underline !important;
+}
 
 @media (min-width: 48em) {
   html {
@@ -164,4 +171,21 @@ h6,
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/* logout-link */
+.logout-link {
+  position: relative;
+  padding: 1rem;
+  font-weight: 500;
+  color: #cdddeb;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+}
+.logout-link:hover,
+.logout-link:focus {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline !important;
 }
