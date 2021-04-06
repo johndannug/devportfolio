@@ -178,6 +178,16 @@ body {
 
 .auth-links a {
   color: black;
+  text-decoration: none !important;
+}
+
+.auth-links a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.auth-link:hover {
+  text-decoration: underline !important;
 }
 
 .login > .card {
