@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -188,4 +189,12 @@ h6,
   color: #fff;
   background-color: transparent;
   text-decoration: underline !important;
+}
+
+/*
+ * custom style
+ */
+
+.social-links li {
+  font-size: 2.5em;
 }
